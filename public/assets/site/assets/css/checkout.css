@@ -1,0 +1,36 @@
+/*product view and checkout page css*/
+.product-img img {
+    width: 100%;
+}
+
+.prodcut-nameandprice {
+    overflow: hidden;
+    margin: 22px 0;
+}
+
+.product-name {
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 26px;
+}
+
+.product-price {
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 26px;
+
+}
+
+.product-description p {
+    letter-spacing: 0;
+    font-size: 17px;
+    text-align: left;
+}
+
+.view-main {
+    padding: 60px 0;
+}
+
+/*end of product view and checkout page css*/

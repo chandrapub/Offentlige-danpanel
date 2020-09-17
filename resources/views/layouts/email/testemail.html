@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="{{asset('assets/site/assets/images/logo-sign.png')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<style>
+</style>
+
+<body>
+    <div class="container" style="margin:3em 10em">
+    <!-- <h1 style="text-align: center">DanPanel</h1> -->
+    <!-- <br> -->
+    
+    <!-- <img src=https://i.postimg.cc/wTxxFjq7/cock.jpg; width="180" height="100" alt="Logo1"> -->
+    <p style="text-align: center;" >
+        <img src="https://danpanel.dk/assets/site/assets/images/DanPanel-Logo2.png" width="250" height="250" alt="Logo"> 
+    </p>
+
+        
+    <h2 style="text-align: center">Tak for din henvendelse! </h2>
+    <br>
+    <p style="text-align: center; font-size:24px;">Vi værdsætter dit valg af DanPanel som leverandør af den ønskede 
+    løsning. Vores passionerede team har modtaget ordren, og de går straks i gang med at behandle den.  
+    </p>
+    <br>
+    <p style="text-align: center; font-size:24px;">Du vil modtage notifikationer om, hvilket stadie din bestilling befinder sig på. Du kan følge med i forløbet ved at logge ind på din profil på danpanel.dk. 
+    Her har du også mulighed for direkte at kontakte os på chatten.  
+    </p>
+    <br>
+     <div style="text-align: center; font-size:22px">
+        <p>Ordre ID: <?php echo e($data->custom_order_id); ?></p>
+        <p>Produktnavn: <?php echo e($data->product->name); ?></p>
+        <p>Kategori: <?php echo e($data->product->category->name); ?></p>
+        <p>Pris: Udspecificeres i kontrakten efter aftale med dig.</p>
+        <!-- <p><strong>Pris: <?php echo e($data->product->price); ?></strong></p> -->
+
+
+     </div>
+    </div>
+</body>
+
+</html>

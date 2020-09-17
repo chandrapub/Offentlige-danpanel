@@ -1,0 +1,41 @@
+# composer update
+# npm install
+# .env.example => clone => .env
+
+-> phpmyadmi Database create
+#DB_DATABASE=
+#DB_USERNAME=
+#DB_PASSWORD=
+
+-> SMTP 
+#MAIL_DRIVER=smtp
+#MAIL_HOST=send.one.com
+#MAIL_PORT=465
+#MAIL_USERNAME=hej@danpanel.dk
+#MAIL_PASSWORD=Mahori123
+#MAIL_ENCRYPTION=ssl
+
+# php artisan key:generate 
+# php artisan serve 
+
+->>>>>>>>>>>If case any error's<<<<<<-----
+#php -r "file_exists('.env') || copy('.env.example', '.env');"
+#php artisan key:generate
+#php artisan cache:clear
+#php artisan view:clear
+#php artisan package:discover
+
+
+
+html files
+
+- resource 
+-- views
+- - - admin
+- - - customer
+- - - site
+
+- - - layout
+- - - - admin
+- - - - customer
+- - - - site
